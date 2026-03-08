@@ -1,0 +1,16 @@
+/* imports for fonts and theme - must come FIRST */
+@import './fonts.css';
+@import './theme.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom layers must come after the directives */
+@layer base {
+  /* Example: custom font or reset */
+  h1 {
+    @apply text-3xl font-bold;
+  }
+}
+
