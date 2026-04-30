@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-dotenv
+langgraph
+pymongo
+pydantic
+pydantic-settings
+python-multipart
+httpx
+motor
+Pillow
+passlib[bcrypt]
+python-jose[cryptography]
+dnspython
+pytesseract
+email-validator
